@@ -8,6 +8,10 @@ export default defineConfig({
     federation({
       name: 'com_example_hello_banner',
       filename: 'remoteEntry.js',
+      // Velora hosts load plugins at runtime and never consume federated
+      // type declarations, so skip the DTS generator (faster builds, no
+      // background worker).
+      dts: false,
       exposes: {
         './plugin': './src/plugin.tsx',
       },
