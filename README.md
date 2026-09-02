@@ -4,6 +4,9 @@ The plugin developer kit for [Velora](https://velora-cms.com): scaffold,
 validate, build, and publish Velora plugins — everything runs from npm,
 no source checkout required.
 
+This repository is the official home for **plugin-development questions
+and bug reports** — open an issue or start a discussion here.
+
 ## Quickstart
 
 ```sh
